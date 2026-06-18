@@ -1,0 +1,66 @@
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local datasets and packaged raw materials
+Homework/
+*.zip
+作业要求.ipynb
+CLAIMS_FROM_RESULTS*.md
+MANIFEST.md
+PAPER_PLAN.md
+
+# Keep only the final submitted checkpoint in Git LFS.
+*.pt
+!models/final_model.pt
+
+# Keep only final/reproducibility outputs.
+outputs/**
+!outputs/
+!outputs/results.csv
+!outputs/statistical_tests.json
+!outputs/convnext_tiny_final/
+!outputs/convnext_tiny_final/history.csv
+!outputs/convnext_tiny_final/training_summary.json
+!outputs/convnext_tiny_final/valid_metrics.json
+
+# Experiment scratch folders duplicated from earlier packaging passes.
+77.25%/
+training_code_refactored/
+review-stage/
+reports/
+Latex_Project_Template/
+
+# LaTeX build products. The final PDF is intentionally tracked.
+report/*.aux
+report/*.bbl
+report/*.blg
+report/*.brf
+report/*.fdb_latexmk
+report/*.fls
+report/*.log
+report/*.out
+report/main.pdf
+report/main_r*.pdf
+report/main_r*.tex
+report/main_tmp.pdf
+report/main_tmp.tex
+report/.aris/
+report/review_*.txt
+report/PAPER_IMPROVEMENT_LOG.md
+report/out/
+report/Figures/*
+!report/Figures/arch_comparison_pub.pdf
+!report/Figures/arch_comparison_pub_source.csv
+!report/Figures/confusion_convnext_tiny_pub.pdf
+!report/Figures/confusion_convnext_tiny_pub_source.csv
+!report/Figures/training_curve_pub.pdf
+report/Figures/*.aux
+report/Figures/*.log
+report/Figures/*.tiff
+report/Figures/__pycache__/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/

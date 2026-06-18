@@ -1,0 +1,15 @@
+{
+  "best_valid_accuracy": 0.775,
+  "best_checkpoint": "models\\tiny_224_reg\\best.pt",
+  "last_checkpoint": "models\\tiny_224_reg\\last.pt",
+  "class_names": [
+    "Large",
+    "Normal",
+    "Small"
+  ],
+  "class_weights": [
+    0.7539041638374329,
+    0.8144270181655884,
+    2.2435896396636963
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "n_valid": 200,
+  "final": {
+    "accuracy": 0.775,
+    "macro_f1": 0.7938394005903278
+  },
+  "baseline": {
+    "accuracy": 0.765,
+    "macro_f1": 0.7771334045910318
+  },
+  "convnext_no_mixup": {
+    "accuracy": 0.765,
+    "macro_f1": 0.7780711722329984
+  },
+  "mcnemar_final_vs_baseline": {
+    "a_correct_b_wrong": 16,
+    "a_wrong_b_correct": 14,
+    "discordant": 30,
+    "exact_p": 0.855535551905632
+  },
+  "mcnemar_final_vs_convnext_no_mixup": {
+    "a_correct_b_wrong": 16,
+    "a_wrong_b_correct": 14,
+    "discordant": 30,
+    "exact_p": 0.855535551905632
+  },
+  "final_macro_f1_bootstrap_ci": {
+    "iterations": 1000,
+    "mean": 0.7919700345833455,
+    "low_95": 0.7359751026759521,
+    "high_95": 0.8450960874873918
+  }
+}
